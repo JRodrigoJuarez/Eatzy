@@ -148,5 +148,5 @@ This project was developed by [Asmita Mishra](https://github.com/AsmitaMishra24)
 ## Contact
 
 For any questions or feedback, feel free to reach out at:
-- **GitHub**: [AsmitaMishra24](https://github.com/AsmitaMishra24)
+- **GitHub**: [AsmitaMishra](https://github.com/AsmitaMishra24)
 - **LinkedIn**: [Asmita Mishra](https://www.linkedin.com/in/asmitamishra1/)
