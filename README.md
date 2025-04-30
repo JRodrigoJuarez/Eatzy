@@ -102,40 +102,22 @@ Frontend: ```http://localhost:5174```
 
 ### User Side
 
-**Homepage**  
-<img src="https://github.com/user-attachments/assets/3a19b45a-b501-4d36-a768-69145ae4f888"/>
-
-**Login Page**  
-<img src="https://github.com/user-attachments/assets/2bc2970d-e2a0-4e09-b39d-132d6959f079"/>
-
-**Explore Menu**  
-<img src="https://github.com/user-attachments/assets/6de90521-89fc-452b-8e9c-0bed795a3693"/>
-
-**Cart Page**  
-<img src="https://github.com/user-attachments/assets/516c7292-150c-4bcb-8f72-8d4b1634f285"/>
-
-**Make Payment Page**  
-<img src="https://github.com/user-attachments/assets/9f5e273e-7fde-43b3-ba3d-6bd3a79a8cde"/>
-
-**Stripe Payment Gateway**  
-<img src="https://github.com/user-attachments/assets/7ca90bcd-d065-4e64-a524-929c6bb265e9"/>
-
-**Track Order & Order History**  
-<img src="https://github.com/user-attachments/assets/95926a2b-8758-42fd-9923-a0fcb54e035a"/>
+<details> <summary><strong>Homepage</strong></summary> <img src="https://github.com/user-attachments/assets/3a19b45a-b501-4d36-a768-69145ae4f888"/> </details> 
+<details> <summary><strong>Login Page</strong></summary> <img src="https://github.com/user-attachments/assets/2bc2970d-e2a0-4e09-b39d-132d6959f079"/> </details> 
+<details> <summary><strong>Explore Menu</strong></summary> <img src="https://github.com/user-attachments/assets/6de90521-89fc-452b-8e9c-0bed795a3693"/> </details> 
+<details> <summary><strong>Cart Page</strong></summary> <img src="https://github.com/user-attachments/assets/516c7292-150c-4bcb-8f72-8d4b1634f285"/> </details> 
+<details> <summary><strong>Make Payment Page</strong></summary> <img src="https://github.com/user-attachments/assets/9f5e273e-7fde-43b3-ba3d-6bd3a79a8cde"/> </details> 
+<details> <summary><strong>Stripe Payment Gateway</strong></summary> <img src="https://github.com/user-attachments/assets/7ca90bcd-d065-4e64-a524-929c6bb265e9"/> </details> 
+<details> <summary><strong>Track Order & Order History</strong></summary> <img src="https://github.com/user-attachments/assets/95926a2b-8758-42fd-9923-a0fcb54e035a"/> </details>
 
 ---
 
 ### Admin Side
 
-**Add Item Page**  
-<img src="https://github.com/user-attachments/assets/46f48ffc-a53d-43c2-aa31-ad51290f1a86"/>
-
-**List of Items Page**  
-<img src="https://github.com/user-attachments/assets/460c7c27-444e-43d3-958b-aa8158342016"/>
-
-**Order Handling Page**  
-<img src="https://github.com/user-attachments/assets/ec4a186f-9485-4c76-82e1-f8a47537027a"/>
-
+<details> <summary><strong>Add Item Page</strong></summary> <img src="https://github.com/user-attachments/assets/46f48ffc-a53d-43c2-aa31-ad51290f1a86"/> </details> 
+<details> <summary><strong>List of Items Page</strong></summary> <img src="https://github.com/user-attachments/assets/460c7c27-444e-43d3-958b-aa8158342016"/> </details> 
+<details> <summary><strong>Order Handling Page</strong></summary> <img src="https://github.com/user-attachments/assets/ec4a186f-9485-4c76-82e1-f8a47537027a"/> </details>
+  
 ## 📝 Notes
 
 1. Ensure that the `.env` variables are correctly configured in the backend.
