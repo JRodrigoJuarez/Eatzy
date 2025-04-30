@@ -21,13 +21,20 @@ Eatzy is a full-stack food ordering website built using the MERN stack. It allow
 - Auth: JWT, Bcrypt  
 - File Uploads: Multer  
 - Payments: Stripe
+
+## Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Stripe](https://stripe.com/docs/keys) account for payment integration
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
 First, clone the repository to your local machine:
 ```bash
-  git clone https://github.com/AsmitaMishra24/Eatzy.git
-  cd Eatzy
+git clone https://github.com/AsmitaMishra24/Eatzy.git
+cd Eatzy
 ```
 
 ### 2. Set Up the Backend
@@ -96,43 +103,43 @@ Frontend: ```http://localhost:5174```
 ### User Side
 
 **Homepage**  
-<img src="https://github.com/user-attachments/assets/3a19b45a-b501-4d36-a768-69145ae4f888" width="600"/>
+<img src="https://github.com/user-attachments/assets/3a19b45a-b501-4d36-a768-69145ae4f888"/>
 
 **Login Page**  
-<img src="https://github.com/user-attachments/assets/2bc2970d-e2a0-4e09-b39d-132d6959f079" width="600"/>
+<img src="https://github.com/user-attachments/assets/2bc2970d-e2a0-4e09-b39d-132d6959f079"/>
 
 **Explore Menu**  
-<img src="https://github.com/user-attachments/assets/6de90521-89fc-452b-8e9c-0bed795a3693" width="600"/>
+<img src="https://github.com/user-attachments/assets/6de90521-89fc-452b-8e9c-0bed795a3693"/>
 
 **Cart Page**  
-<img src="https://github.com/user-attachments/assets/516c7292-150c-4bcb-8f72-8d4b1634f285" width="600"/>
+<img src="https://github.com/user-attachments/assets/516c7292-150c-4bcb-8f72-8d4b1634f285"/>
 
 **Make Payment Page**  
-<img src="https://github.com/user-attachments/assets/9f5e273e-7fde-43b3-ba3d-6bd3a79a8cde" width="600"/>
+<img src="https://github.com/user-attachments/assets/9f5e273e-7fde-43b3-ba3d-6bd3a79a8cde"/>
 
 **Stripe Payment Gateway**  
-<img src="https://github.com/user-attachments/assets/7ca90bcd-d065-4e64-a524-929c6bb265e9" width="600"/>
+<img src="https://github.com/user-attachments/assets/7ca90bcd-d065-4e64-a524-929c6bb265e9"/>
 
 **Track Order & Order History**  
-<img src="https://github.com/user-attachments/assets/95926a2b-8758-42fd-9923-a0fcb54e035a" width="600"/>
+<img src="https://github.com/user-attachments/assets/95926a2b-8758-42fd-9923-a0fcb54e035a"/>
 
 ---
 
 ### Admin Side
 
 **Add Item Page**  
-<img src="https://github.com/user-attachments/assets/46f48ffc-a53d-43c2-aa31-ad51290f1a86" width="600"/>
+<img src="https://github.com/user-attachments/assets/46f48ffc-a53d-43c2-aa31-ad51290f1a86"/>
 
 **List of Items Page**  
-<img src="https://github.com/user-attachments/assets/460c7c27-444e-43d3-958b-aa8158342016" width="600"/>
+<img src="https://github.com/user-attachments/assets/460c7c27-444e-43d3-958b-aa8158342016"/>
 
 **Order Handling Page**  
-<img src="https://github.com/user-attachments/assets/ec4a186f-9485-4c76-82e1-f8a47537027a" width="600"/>
+<img src="https://github.com/user-attachments/assets/ec4a186f-9485-4c76-82e1-f8a47537027a"/>
 
-Notes
-1. Ensure that the .env variables are correctly configured in the backend.
+## Notes
+
+1. Ensure that the `.env` variables are correctly configured in the backend.
 2. Make sure MongoDB and Stripe services are active and connected.
-3.The GitHub repository should remain public and accessible for evaluation.
 
 ## Developer
 
