@@ -1,10 +1,10 @@
-# Eatzy - MERN Stack Food Ordering Website
+# 🍕 Eatzy - MERN Stack Food Ordering Website
 
-## Project Overview
+## 📝 Project Overview
 
 Eatzy is a full-stack food ordering website built using the MERN stack. It allows users to browse food items, add them to a cart, and place orders securely using Stripe. The platform includes user and admin panels, login/signup functionality, role-based access, and complete order and product management.
 
-## Features
+## ✨ Features
 
 - User: Signup/Login, browse menu, add to cart, place orders, view order history
 - Admin: Add/edit/delete items, manage orders
@@ -13,7 +13,7 @@ Eatzy is a full-stack food ordering website built using the MERN stack. It allow
 - Role-based access with protected APIs
 - Responsive design with file upload and user alerts
 
-## Tech Stack
+## 🧰 Tech Stack
 
 - Frontend: React  
 - Backend: Node.js, Express.js  
@@ -22,13 +22,13 @@ Eatzy is a full-stack food ordering website built using the MERN stack. It allow
 - File Uploads: Multer  
 - Payments: Stripe
 
-## Prerequisites
+## ✅ Prerequisites
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [Stripe](https://stripe.com/docs/keys) account for payment integration
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
 First, clone the repository to your local machine:
@@ -98,7 +98,7 @@ Admin Panel: ```http://localhost:5173```
 
 Frontend: ```http://localhost:5174```
 
-## Screenshots
+## 📸 Screenshots
 
 ### User Side
 
@@ -136,16 +136,16 @@ Frontend: ```http://localhost:5174```
 **Order Handling Page**  
 <img src="https://github.com/user-attachments/assets/ec4a186f-9485-4c76-82e1-f8a47537027a"/>
 
-## Notes
+## 📝 Notes
 
 1. Ensure that the `.env` variables are correctly configured in the backend.
 2. Make sure MongoDB and Stripe services are active and connected.
 
-## Developer
+## 👩‍💻 Developer
 
 This project was developed by [Asmita Mishra](https://github.com/AsmitaMishra24).
 
-## Contact
+## 📬 Contact
 
 For any questions or feedback, feel free to reach out at:
 - **GitHub**: [AsmitaMishra](https://github.com/AsmitaMishra24)
