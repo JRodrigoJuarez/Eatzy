@@ -1,4 +1,4 @@
-# 🍕 Eatzy - MERN Stack Food Ordering Website
+# Eatzy - MERN Stack Food Ordering Website🍕
 
 ## 📝 Project Overview
 
